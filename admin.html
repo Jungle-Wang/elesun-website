@@ -708,7 +708,7 @@ async function saveData() {
         a.href = url; a.download = 'data.json';
         document.body.appendChild(a); a.click();
         document.body.removeChild(a); URL.revokeObjectURL(url);
-        toast('数据已下载 → 请将 data.json 替换到网站目录', 'success');
+        toast('✅ data.json 已下载！请替换到 elesun-website 目录后点一键发布', 'success');
     } catch(e) {
         toast('保存失败: ' + e.message, 'error');
     }
@@ -719,9 +719,18 @@ function previewSite() {
     window.open('index.html', '_blank');
 }
 
-// ===== DEPLOY (placeholder) =====
+// ===== DEPLOY =====
 function deploySite() {
-    toast('请保存 data.json 后，在终端执行: cd elesun-website && git add . && git commit -m "update" && git push', 'success');
+    if (!confirm('确认发布？\n\n发布前请确保：\n1. 已点击「保存数据」下载 data.json\n2. 已将 data.json 替换到项目目录\n\n点击确定将推送当前线上版本到 GitHub Pages。')) return;
+    // Since admin.html runs in browser, we can't directly git push.
+    // Instead, copy data.json to clipboard for easy paste
+    collectForm();
+    const json = JSON.stringify(siteData, null, 2);
+    navigator.clipboard.writeText(json).then(() => {
+        toast('📋 JSON 已复制到剪贴板！\n\n请在终端执行以下命令发布：\n\ncd ~/.qclaw/workspace/elesun-website\necho \'<粘贴JSON>\' > data.json\ngit add . && git commit -m "update content" && git push', 'success');
+    }).catch(() => {
+        toast('请手动复制 data.json 内容，或让 QClaw 帮你发布', 'success');
+    });
 }
 
 // ===== HELPERS =====
