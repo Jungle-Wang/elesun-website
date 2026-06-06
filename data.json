@@ -1,0 +1,128 @@
+{
+  "site": {
+    "title": "Elesun — Power the World, Green the Future",
+    "brand": "Elesun",
+    "tagline": "Power the World · Green the Future",
+    "copyright": "© 2025 Elesun. All rights reserved. | elesun.vip"
+  },
+  "hero": {
+    "slogan": "POWER THE WORLD<br>GREEN THE FUTURE",
+    "subtitle": "Since 2005, driving the future with smart electric mobility. Elesun delivers innovative, sustainable transportation solutions for a cleaner planet.",
+    "ctaText": "Get in Touch",
+    "ctaLink": "https://wa.me/6281388991356"
+  },
+  "mission": {
+    "label": "Our Purpose",
+    "title": "DRIVE THE FUTURE<br>GUARD THE EARTH",
+    "desc": "For 20 years, Elesun has been at the forefront of electric mobility, combining cutting-edge technology with responsible manufacturing.",
+    "cards": [
+      {
+        "title": "GLOBAL REACH",
+        "desc": "Smart electric drive benefits the world. Our solutions serve customers across Indonesia and beyond.",
+        "icon": "globe"
+      },
+      {
+        "title": "CLEAN POWER",
+        "desc": "Clean power guards our planet. Every Elesun vehicle contributes to a sustainable future.",
+        "icon": "shield"
+      },
+      {
+        "title": "20 YEARS",
+        "desc": "Two decades of innovation in electric two-wheelers. Experience you can trust.",
+        "icon": "star"
+      }
+    ]
+  },
+  "vehicles": {
+    "label": "Our Fleet",
+    "title": "ELECTRIC VEHICLES",
+    "desc": "Four series for every journey — from agile speed to heavy-duty utility.",
+    "models": [
+      {
+        "id": "l1",
+        "model": "L1",
+        "series": "LUMINAPAWS",
+        "tag": "Agile · Swift",
+        "image": "",
+        "specs": {
+          "range": "",
+          "speed": "",
+          "battery": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "n1",
+        "model": "N1",
+        "series": "NEBULASTRIDE",
+        "tag": "Urban · Commute",
+        "image": "",
+        "specs": {
+          "range": "",
+          "speed": "",
+          "battery": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "t1",
+        "model": "T1",
+        "series": "TERRAMORPH",
+        "tag": "Classic · Reimagined",
+        "image": "",
+        "specs": {
+          "range": "",
+          "speed": "",
+          "battery": "",
+          "weight": ""
+        }
+      },
+      {
+        "id": "m1",
+        "model": "M1",
+        "series": "MAGNUSMAX",
+        "tag": "Power · Haul",
+        "image": "",
+        "specs": {
+          "range": "",
+          "speed": "",
+          "battery": "",
+          "weight": ""
+        }
+      }
+    ]
+  },
+  "values": {
+    "label": "What We Stand For",
+    "title": "OUR VALUES",
+    "desc": "Eight principles that guide every decision we make, every vehicle we build.",
+    "items": [
+      { "zh": "精益求精", "en": "Strive for Perfection" },
+      { "zh": "专注坚守", "en": "Focus & Commitment" },
+      { "zh": "严谨细致", "en": "Rigor & Detail" },
+      { "zh": "持续创新", "en": "Continuous Innovation" },
+      { "zh": "匠心品质", "en": "Craftsmanship & Quality" },
+      { "zh": "敬业尽责", "en": "Dedication & Accountability" },
+      { "zh": "追求卓越", "en": "Pursuit of Excellence" },
+      { "zh": "电驱未来", "en": "Drive the Future" }
+    ]
+  },
+  "contact": {
+    "title": "READY TO GO <span>ELECTRIC?</span>",
+    "desc": "Connect with us on WhatsApp for pricing, availability, and partnership opportunities.",
+    "whatsapp": "+62 813-8899-1356",
+    "whatsappLink": "https://wa.me/6281388991356",
+    "email": "info@elesun.vip",
+    "ctaWhatsapp": "Chat on WhatsApp",
+    "ctaEmail": "Email Us"
+  },
+  "footer": {
+    "brandDesc": "Power the world, green the future. Elesun has been driving electric mobility innovation since 2005.",
+    "products": ["Luminapaws", "NebulaStride", "Terramorph", "MagnusMax"],
+    "company": [
+      { "label": "About Us", "link": "#mission" },
+      { "label": "Our Values", "link": "#values" },
+      { "label": "Contact", "link": "#contact" }
+    ]
+  }
+}
